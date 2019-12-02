@@ -1,0 +1,27 @@
+{
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "prettier.printWidth": 120,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true,
+    "importSorter.generalConfiguration.sortOnBeforeSave": true,
+    "importSorter.sortConfiguration.customOrderingRules.rules": [
+        {
+            "type": "importMember",
+            "regex": "^$",
+            "orderLevel": 30,
+            "disableSort": true
+        },
+        {
+            "regex": "^src/",
+            "orderLevel": 25
+        },
+        {
+            "regex": "^[.]",
+            "orderLevel": 35
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "trezeo-coding-challenge",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "main": "node --experimental-modules trezeo-coding-challenge.mjs"
+    },
+    "dependencies": {
+        "fs": "^0.0.1-security",
+        "fs-reverse": "^0.0.3",
+        "stream": "^0.0.2"
+    },
+    "devDependencies": {}
+}
